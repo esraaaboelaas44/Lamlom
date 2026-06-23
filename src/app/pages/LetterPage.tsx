@@ -9,20 +9,20 @@ export default function LetterPage() {
   const navigate = useNavigate();
   const [musicPlaying, setMusicPlaying] = useState(false);
 
-  const letterText = `My Dearest Lama,
+  const letterText = `Our Dearest Lama,
 
-Today is your special day, and I wanted to create something magical just for you. Words cannot express how grateful I am to have you in my life. You are the kind of friend everyone dreams of having - loyal, caring, beautiful inside and out.
+Today is your special day, and We wanted to create something magical just for you. Words cannot express how grateful we are to have you in our life. You are the kind of friend everyone dreams of having - loyal, caring, beautiful inside and out.
 
-Every moment we've shared together has been a treasure. From our late-night conversations to our spontaneous adventures, you've made every memory unforgettable. Your smile lights up the darkest days, and your laughter is my favorite sound in the world.
+Every moment we've shared together has been a treasure. From our late-night conversations to our spontaneous adventures, you've made every memory unforgettable. Your smile lights up the darkest days, and your laughter is our favorite sound in the world.
 
-You deserve all the happiness, love, and success that life has to offer. May this year bring you closer to your dreams and fill your heart with endless joy. Remember that no matter where life takes us, you'll always have a special place in my heart.
+You deserve all the happiness, love, and success that life has to offer. May this year bring you closer to your dreams and fill your heart with endless joy. Remember that no matter where life takes us, you'll always have a special place in our heart.
 
-Thank you for being you - for your kindness, your strength, your compassion, and your incredible spirit. You inspire me every single day.
+Thank you for being you - for your kindness, your strength, your compassion, and your incredible spirit. You inspire us every single day.
 
-Happy Birthday, my beautiful friend. Here's to another year of creating magical memories together.
+Happy Birthday, our beautiful friend. Here's to another year of creating magical memories together.
 
-With all my love,
-Your Best Friend Forever 💕`;
+With all our love,
+Your Best Friends Forever 💕`;
 
   return (
     <div className="min-h-screen relative overflow-hidden bg-gradient-to-br from-rose-50 via-pink-50 to-purple-50">

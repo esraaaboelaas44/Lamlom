@@ -31,31 +31,31 @@ export default function ReasonsPage() {
     {
       number: "04",
       reason: "Your Humor",
-      detail: "You know how to make me laugh even on the hardest days. Your joy is infectious.",
+      detail: "You know how to make us laugh even on the hardest days. Your joy is infectious.",
       icon: "🌸",
     },
     {
       number: "05",
       reason: "Your Loyalty",
-      detail: "You're always there when I need you. Your friendship is one of my greatest treasures.",
+      detail: "You're always there when we need you. Your friendship is one of our greatest treasures.",
       icon: "🎀",
     },
     {
       number: "06",
       reason: "Your Wisdom",
-      detail: "Your advice and perspective always help me see things clearly. You're wise beyond measure.",
+      detail: "Your advice and perspective always help us see things clearly. You're wise beyond measure.",
       icon: "⭐",
     },
     {
       number: "07",
       reason: "Your Authenticity",
-      detail: "You're unapologetically yourself, and that's beautiful. You inspire me to be authentic too.",
+      detail: "You're unapologetically yourself, and that's beautiful. You inspire us to be authentic too.",
       icon: "💕",
     },
     {
       number: "08",
       reason: "Your Dreams",
-      detail: "Your ambition and passion for your dreams are incredible. I believe in everything you do.",
+      detail: "Your ambition and passion for your dreams are incredible. We believe in everything you do.",
       icon: "🦢",
     },
     {
