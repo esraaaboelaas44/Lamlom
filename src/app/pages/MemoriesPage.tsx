@@ -10,6 +10,7 @@ import photo3 from "../../assets/memories/esraa.jpg";
 import photo4 from "../../assets/memories/roaa.jpg";
 import video1 from "../../assets/memories/vid.mp4";
 import photo7 from "../../assets/memories/trio1.jpg";
+import photo8 from "../../assets/memories/trio2.jpg";
 import photo9 from "../../assets/memories/all.jpg";
 
 export default function MemoriesPage() {
@@ -22,8 +23,8 @@ export default function MemoriesPage() {
   { caption: "Happiest of birthdays auntie lamlomiiii🤪🤩🤍\n Lucky me for having you, I hope we stay together forever ♾️", delay: 0.2, type: "image", image: photo4 },
   { caption: "Coffee dates and deep talks", delay: 0.3, type: "video", image: video1 },
   { caption: "Your smile lights up my world", delay: 0.4, type: "image", image: "https://images.unsplash.com/photo-1705467650418-fafad5bd1f94?w=600&h=600&fit=crop" },
-  { caption: "Forever grateful for you", delay: 0.5, type: "image", image: photo7 },
-  { caption: "Best friends for life", delay: 0.6, type: "image", image: "https://images.unsplash.com/photo-1713528758215-3451501f2404?w=600&h=600&fit=crop" },
+  { caption: "Shoutout to every dumb uni moment that brought this TRIO together.", delay: 0.5, type: "image", image: photo7 },
+  { caption: "Another chapter, still the three of us. Always.😱", delay: 0.6, type: "image", image: photo8 },
   { caption: "We are lucky to have a sister like you in our life, happy birthday lamlomy", delay: 0.2, type: "image", image: photo9 },
 ];
 

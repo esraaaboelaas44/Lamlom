@@ -8,13 +8,13 @@ export default function TimelinePage() {
   const navigate = useNavigate();
 
   const milestones = [
-    {
-      date: "The Beginning",
-      title: "When We First Met",
-      description: "The universe brought us together and everything changed. I knew from that moment you'd be someone special.",
-      icon: "🌟",
-      color: "from-pink-400 to-rose-400",
-    },
+    // {
+    //   date: "The Beginning",
+    //   title: "When We First Met",
+    //   description: "The universe brought us together and everything changed. I knew from that moment you'd be someone special.",
+    //   icon: "🌟",
+    //   color: "from-pink-400 to-rose-400",
+    // },
     {
       date: "Growing Closer",
       title: "Late Night Conversations",

@@ -3,11 +3,13 @@ import { useNavigate } from "react-router";
 import { Heart, ArrowRight, Music } from "lucide-react";
 import FloatingParticles from "../components/FloatingParticles";
 import PageProgress from "../components/PageProgress";
-import { useState } from "react";
+import { useState, useRef } from "react";
+import song from "../../assets/music.mp3";
 
 export default function LetterPage() {
   const navigate = useNavigate();
   const [musicPlaying, setMusicPlaying] = useState(false);
+  const audioRef = useRef<HTMLAudioElement>(null);
 
   const letterText = `Our Dearest Lama,
 
@@ -26,6 +28,7 @@ Your Best Friends Forever 💕`;
 
   return (
     <div className="min-h-screen relative overflow-hidden bg-gradient-to-br from-rose-50 via-pink-50 to-purple-50">
+      <audio ref={audioRef} src={song} loop />
       <PageProgress />
       <FloatingParticles type="hearts" count={20} />
       <FloatingParticles type="stars" count={15} />
@@ -43,7 +46,14 @@ Your Best Friends Forever 💕`;
             A Letter For You
           </h1>
           <motion.button
-            onClick={() => setMusicPlaying(!musicPlaying)}
+            onClick={() => {
+              if (musicPlaying) {
+                audioRef.current?.pause();
+              } else {
+                audioRef.current?.play();
+              }
+              setMusicPlaying(!musicPlaying);
+            }}
             className="inline-flex items-center gap-2 px-6 py-2 bg-white/60 backdrop-blur-sm rounded-full text-rose-400 hover:text-rose-500 transition-colors shadow-lg"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
