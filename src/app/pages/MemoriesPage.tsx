@@ -23,7 +23,7 @@ export default function MemoriesPage() {
   { caption: "Thank u for always showing up for me. And another big THANKS for matching my humor like no one else😔💗", delay: 0.2, type: "image", image: photo3 },
   { caption: "Happiest of birthdays auntie lamlomiiii🤪🤩🤍\n Lucky me for having you, I hope we stay together forever ♾️", delay: 0.2, type: "image", image: photo4 },
   { caption: "Coffee dates and deep talks", delay: 0.3, type: "video", image: video1 },
-  { caption: "Your smile lights up my world", delay: 0.4, type: "image", image: photo6 },
+  { caption: "Partner in crime since day one. 🤍", delay: 0.4, type: "image", image: photo6 },
   { caption: "Shoutout to every dumb uni moment that brought this TRIO together.", delay: 0.5, type: "image", image: photo7 },
   { caption: "Another chapter, still the three of us. Always.😱", delay: 0.6, type: "image", image: photo8 },
   { caption: "We are lucky to have a sister like you in our life, happy birthday lamlomy", delay: 0.2, type: "image", image: photo9 },
