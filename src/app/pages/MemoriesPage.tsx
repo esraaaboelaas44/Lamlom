@@ -9,6 +9,7 @@ import photo2 from "../../assets/memories/aya.jpg";
 import photo3 from "../../assets/memories/esraa.jpg";
 import photo4 from "../../assets/memories/roaa.jpg";
 import video1 from "../../assets/memories/vid.mp4";
+import photo6 from "../../assets/memories/mayar.jpg";
 import photo7 from "../../assets/memories/trio1.jpg";
 import photo8 from "../../assets/memories/trio2.jpg";
 import photo9 from "../../assets/memories/all.jpg";
@@ -22,7 +23,7 @@ export default function MemoriesPage() {
   { caption: "Thank u for always showing up for me. And another big THANKS for matching my humor like no one else😔💗", delay: 0.2, type: "image", image: photo3 },
   { caption: "Happiest of birthdays auntie lamlomiiii🤪🤩🤍\n Lucky me for having you, I hope we stay together forever ♾️", delay: 0.2, type: "image", image: photo4 },
   { caption: "Coffee dates and deep talks", delay: 0.3, type: "video", image: video1 },
-  { caption: "Your smile lights up my world", delay: 0.4, type: "image", image: "https://images.unsplash.com/photo-1705467650418-fafad5bd1f94?w=600&h=600&fit=crop" },
+  { caption: "Your smile lights up my world", delay: 0.4, type: "image", image: photo6 },
   { caption: "Shoutout to every dumb uni moment that brought this TRIO together.", delay: 0.5, type: "image", image: photo7 },
   { caption: "Another chapter, still the three of us. Always.😱", delay: 0.6, type: "image", image: photo8 },
   { caption: "We are lucky to have a sister like you in our life, happy birthday lamlomy", delay: 0.2, type: "image", image: photo9 },
@@ -47,7 +48,7 @@ export default function MemoriesPage() {
             Our Memories
           </h1>
           <p className="text-xl font-['Poppins'] font-light text-rose-400">
-            Moments frozen in time, forever in my heart
+            Moments frozen in time, forever in our hearts.
           </p>
           <div className="flex justify-center gap-3 mt-6">
             {['💕', '🌸', '✨'].map((emoji, i) => (
